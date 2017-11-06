@@ -1,0 +1,22 @@
+{
+  "name": "semantic-html5",
+  "version": "1.0.0",
+  "description": "Semantic HTML5",
+  "main": "app.js",
+  "scripts": {
+    "start": "open http://localhost:8080 && node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "HTML5"
+  ],
+  "author": "Robert Laws",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "browsersync": "0.0.1-security",
+    "nodemon": "^1.12.1"
+  }
+}
